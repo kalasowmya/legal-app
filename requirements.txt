@@ -1,0 +1,30 @@
+# Requirements.txt for Legal Contract Analyzer
+
+# Core App
+streamlit
+Markdown
+
+# PDF & Word Processing
+pymupdf  # fitz - for reading PDFs
+python-docx
+pdf2image  # Needs poppler-utils installed on system
+pillow  # For image handling
+pytesseract  # OCR engine
+beautifulsoup4  # For HTML parsing if needed
+
+# AI Model APIs
+google-generativeai
+openai
+anthropic
+
+# LangChain Integration
+langchain
+langchain-google-genai
+langchain_community
+
+pdf2image 
+poppler-utils
+
+# NOTE: You must install poppler-utils separately for pdf2image to work:
+# sudo apt install poppler-utils
+
